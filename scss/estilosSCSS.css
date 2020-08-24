@@ -26,7 +26,29 @@ body {
 }
 
 #logoGif {
-  width: 60%;
+  width: 600px;
+  float: right;
+  margin-right: 20px;
+}
+
+/*Sobre Nosotras*/
+.sobreNosotras {
+  width: 700px;
+  margin: 50px 70px 50px 70px;
+}
+
+.textoNosotras {
+  font-family: 'Space Mono', monospace;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 50px 50px 50px 100px;
+}
+
+.grillaNosotras {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (700px)[2];
+      grid-template-columns: repeat(2, 700px);
 }
 
 /* header */
