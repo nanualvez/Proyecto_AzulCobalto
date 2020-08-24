@@ -25,6 +25,10 @@ body {
   background-size: cover;
 }
 
+.logoGif {
+  width: 250px;
+}
+
 /* header */
 .logo {
   width: 15%;
