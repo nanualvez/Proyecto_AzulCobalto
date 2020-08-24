@@ -1,0 +1,29 @@
+/* generales */
+
+html{
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+/* index */
+
+.fondoIndex{
+	background-image: url(fondoIndex.jpg);
+	background-size: cover;
+}
+

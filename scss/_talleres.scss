@@ -1,0 +1,61 @@
+/* talleres */
+
+.imagenes{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: 30px 10px 00px 200px;
+    padding: 10px 10px 10px 10px;
+}
+
+.talleres {
+	background-color:#E5D1E6;
+	border-radius: 15px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-bottom: 30px; 
+}
+
+.talleres__img {
+	width: 200px;
+	height: 200px;
+	margin-right: 40px;
+	margin-left: 10px;
+}
+
+.talleres__titulo {
+	font-family: 'Work Sans', sans-serif;
+	font-size:2.2rem;
+	color:#49479D;
+	margin-bottom: 20px;
+}
+
+.talleres__parrafo {
+	font-family: 'Work Sans', sans-serif;
+	line-height: 28px;
+	font-size:1.5rem;
+	color:#49479D;
+}
+
+.boton{
+	padding: 20px;
+	background-color: #49479D;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.boton--derecha {
+	position: absolute;
+	right: 20px;
+	bottom: -25px;
+}

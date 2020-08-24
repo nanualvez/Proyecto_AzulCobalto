@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contacto</title>
+	<link rel="stylesheet" type="text/css" href="scss/estilosSCSS.css">
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<input type="checkbox" id="nav" class="oculto">
+			<label for="nav" class="nav-btn">
+				<i></i>
+				<i></i>
+				<i></i>
+			</label>
+		
+			<div class="nav-wrapper">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="sobrenosotras.html">Sobre Nosotras</a></li>
+					<li><a href="talleres.html">Talleres</a></li>
+					<li><a href="store.html">Store</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+
+		<h1 class="contacto" >Contacto</h1>
+		<br>
+			<form class="formulario">
+				<label for="nombre">Nombre</label>
+				<input type="text" name="nombre">
+				<br>
+				<br>
+				<label for="apellido">Apellido</label>
+				<input type="text" name="apellido">
+				<br>
+				<br>
+				<label for="email">Email</label>
+				<input type="email" name="email">
+				<br>
+				<br>
+				<label for="genero">Género</label>
+				<select name="genero">
+					<option value="hombre">Hombre</option>
+					<option value="mujer">Mujer</option>
+					<option value="otro">Otrx</option>
+				</select>
+				<br>
+				<br>
+				<div id="terminos">Desea recibir nuestro newsletter?
+				<input type="checkbox" name="acepta" value="1"></div>
+				<br>
+			
+			<fieldset class="comentarios">
+				<legend><h3>Comentarios</h3></legend>
+
+				<label for="comentarios"></label>
+				<br>
+				<textarea name="consulta" rows="10" cols="30">Ingrese sus comentarios</textarea>
+				<br>
+				<br>
+				<input type="submit" value="Enviar Formulario">
+				<input type="reset" value="Limpiar datos">
+			</fieldset>
+			</form>
+		
+		<footer id="footer">
+			<ul>
+				<li>azulcobalto@gmail.com</li>
+				<li>+54 221 50000</li>
+			</ul>
+		</footer>
+</body>
+
+</html>
