@@ -28,6 +28,8 @@ body {
 #logoGif {
   width: 600px;
   float: right;
+  margin-left: 1000px;
+  margin-top: 50px;
   margin-right: 20px;
 }
 
